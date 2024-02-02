@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String to Number</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: yellow;
+        }
+        h1{
+            font-size: 10rem;
+            background-color: black;
+            color: white;
+            margin: 10px 0 10px 0;
+            text-align: center;
+        }
+        p{
+            font-size: 2.468rem;
+            background-color: black;
+            color: white;
+            text-align: justify;
+            margin: o 5px 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>String to Number</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae, sed earum nam atque rerum maiores quos aut ea, dolores, modi adipisci amet sunt facere natus? Hic optio voluptatem ipsam mollitia aliquid vitae\, explicabo, rem commodi cumque quo dignissimos a accusantium? Dolorem, quidem amet? Provident, sint rem. Deleniti cumque nihil autem voluptate corporis eum ratione consequatur adipisci. Iusto impedit voluptatibus non aspernatur error qui quaerat exercitationem, doloribus nihil, architecto similique nisi sequi cupiditate ipsa rem tempore illum natus, veritatis possimus quas et sapiente. Natus hic neque pariatur iusto animi 
+    </p>
+</body>
+<script>
+    let a = prompt ("Hey whats you age?")
+    a = Number.parseInt (a);
+    if(a<0){
+        alert("This is a ivalid age")
+    }
+    else if(a<9){
+        alert ("You are a kid and you cannot even think of driving");
+    }
+    else if(a<18 && a>=9){
+        alert ("you are a kid and you can think of driving after 18 ");
+    }
+    else{
+        alert("You can now drive as you are above 18");
+    }
+     console.log("Done");
+
+     console.log("You con" ,( a<18? "not drive" :"drive"));
+</script>
+</html>
